@@ -1,6 +1,6 @@
 {
   "name": "dustify",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Browserify plugin to convert dustjs templates to Javascript.",
   "author": {
     "name": "Scott Brady",
