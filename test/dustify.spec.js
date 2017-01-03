@@ -52,4 +52,26 @@ describe('dustify', function () {
       expect(results).to.equal('Hello Alex!');
     });
   })
+
+  describe('partials', function () {
+    beforeEach(function (done) {
+      var testBundle = browserify();
+      testBundle.transform(dustify);
+      testBundle.add(__dirname + '/partials.js');
+
+      testBundle.bundle(function (err, value) {
+        var context = {
+          done: function (err, html) {
+            results = html;
+            done(err);
+          }
+        };
+        vm.runInNewContext(value, context);
+      });
+    });
+
+    it('returns correct results', function () {
+      expect(results).to.equal('Hello Alex!');
+    });
+  })
 });
