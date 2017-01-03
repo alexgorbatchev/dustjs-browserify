@@ -42,13 +42,13 @@
   },
   "homepage": "https://github.com/alexgorbatchev/dustify",
   "dependencies": {
-    "dustjs-linkedin": "^2.7.4",
+    "dustjs-linkedin": "^2.7.5",
     "through": "^2.3.8"
   },
   "devDependencies": {
-    "bluebird": "^3.4.6",
+    "bluebird": "^3.4.7",
     "browserify": "^13.1.1",
     "chai": "^3.5.0",
-    "mocha": "^3.1.2"
+    "mocha": "^3.2.0"
   }
 }
