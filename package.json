@@ -42,7 +42,7 @@
   },
   "homepage": "https://github.com/alexgorbatchev/dustify",
   "dependencies": {
-    "dustjs-linkedin": "^2.7.5",
+    "dustjs-linkedin": "^3.0.0",
     "through": "^2.3.8"
   },
   "devDependencies": {
